@@ -1,0 +1,31 @@
+ * {
+      font-family:
+        -apple-system, BlinkMacSystemFont,
+        "Microsoft Jhenghei", "Segoe UI", "Roboto", fallback,
+        "Helvetica Neue", Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+
+    .btn {
+      border-width: 2px;
+    }
+
+    .carousel-header-item {
+      height: 450px;
+    }
+
+    .bg-cover {
+      background-size: cover;
+      background-position: center;
+    }
+
+    .carousel-caption {
+      background-color:
+        rgba(0, 0, 0, .6);
+    }
+
+    @media (min-width: 768px) {
+      .text-md-dark {
+        color: #333;
+      }
+    }
